@@ -1,0 +1,10 @@
+{
+  "name": "عيادة الدكتور محمد عفاره",
+  "description": "منصة طبية بسيطة وأنيقة لعيادة الدكتور محمد عفاره التخصصية في أمراض الكلى والباطنة، تتميز بتصميم أبيض هادئ وخلفية تفاعلية.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
