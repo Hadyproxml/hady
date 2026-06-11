@@ -19,6 +19,7 @@ import {
   CheckCircle2,
   Quote
 } from "lucide-react";
+import doctorImg from "../assets/images/doctor.png";
 
 // --- Hover Image / Tilt logic ---
 function TiltImage() {
@@ -57,7 +58,7 @@ function TiltImage() {
       >
         <motion.div className="absolute inset-0 w-full h-full" style={{ transform: "translateZ(20px) scale(1.03)" }}>
           <img
-            src="/src/assets/images/doctor.png"
+            src={doctorImg}
             alt="د. محمد عفاره"
             className="w-full h-full object-contain object-bottom grayscale-[0.1] opacity-90 transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105 group-hover:opacity-100"
           />
